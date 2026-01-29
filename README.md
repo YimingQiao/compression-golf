@@ -50,6 +50,12 @@ cargo run --release
 
 The dataset is distributed as `data.json.gz` to keep the repo size manageable.
 
+To run only your codec:
+
+```bash
+cargo run --release -- --codec yourname
+```
+
 To test against a different dataset:
 
 ```bash
