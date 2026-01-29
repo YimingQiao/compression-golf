@@ -1,6 +1,6 @@
 # compression-golf
 
-**Can you beat 8,552,007 bytes?**
+**Can you beat 6,847,283 bytes?**
 
 A compression challenge: encode 1,000,000 GitHub events into the smallest possible binary format.
 
@@ -14,10 +14,11 @@ This leaderboard uses the `data.json.gz` dataset included in the repo. Use this 
 
 | Rank | Who                                | Size (Bytes) |
 |------|------------------------------------|--------------|
-| 1    | [hachikuji](src/hachikuji.rs)      | 8,552,007    |
-| 2    | [agavra](src/agavra.rs)            | 9,407,052    |
-| 3    | *[Zstd(22)](src/zstd.rs)*          | 11,917,798   |
-| 4    | *[Zstd(9)](src/zstd.rs)*           | 17,869,403   |
+| 1    | [XiangpengHao](src/xiangpenghao.rs)| 6,847,283    |
+| 2    | [hachikuji](src/hachikuji.rs)      | 8,552,007    |
+| 3    | [agavra](src/agavra.rs)            | 9,407,052    |
+| 4    | *[Zstd(22)](src/zstd.rs)*          | 11,917,798   |
+| 5    | *[Zstd(9)](src/zstd.rs)*           | 17,869,403   |
 |      | *[Naive (baseline)](src/naive.rs)* | 210,727,389  |
 
 ### Evaluation Dataset Leaderboard
